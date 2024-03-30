@@ -29,7 +29,7 @@ Partial Class Form6
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(121, 95)
+        Me.Button1.Location = New System.Drawing.Point(461, 99)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(110, 61)
         Me.Button1.TabIndex = 0
@@ -38,9 +38,9 @@ Partial Class Form6
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(274, 95)
+        Me.Button2.Location = New System.Drawing.Point(461, 185)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(106, 61)
+        Me.Button2.Size = New System.Drawing.Size(110, 61)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "player vs computer"
         Me.Button2.UseVisualStyleBackColor = True
@@ -48,7 +48,7 @@ Partial Class Form6
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(191, 36)
+        Me.Label1.Location = New System.Drawing.Point(286, 41)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 2
