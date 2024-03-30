@@ -461,4 +461,52 @@ Public Class Form2
         Me.Hide()
 
     End Sub
+
+    Private random As New Random()
+
+    Private Sub ComputerMove()
+        If Not GameOver() Then
+            Dim gameGridButtons As New List(Of Button) From {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9}
+
+            Dim availableButtons As New List(Of Button)
+
+            For Each btn As Button In gameGridButtons
+                If btn.Enabled Then
+                    availableButtons.Add(btn)
+                End If
+            Next
+
+
+            If availableButtons.Count > 0 Then
+                Dim randomButtonIndex As Integer = random.Next(availableButtons.Count)
+                Dim selectedButton As Button = availableButtons(randomButtonIndex)
+
+                ' Simulate a click on the randomly selected button
+                selectedButton.PerformClick()
+                Flag = True
+
+
+            End If
+        End If
+    End Sub
+
+
+    Private Function GameOver() As Boolean
+        If Label8.Text.StartsWith("Winner O:") OrElse Label8.Text.StartsWith("Winner X:") OrElse Label8.Text = "DRAW" Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
+
+    Private Sub Button_Click(sender As Object, e As EventArgs) Handles Button1.Click, Button2.Click, Button3.Click, Button4.Click, Button5.Click, Button6.Click, Button7.Click, Button8.Click, Button9.Click
+        If Form6.PlayerVsComputerModeEnabled Then
+            If Flag = False Then
+                ComputerMove()
+            End If
+        End If
+    End Sub
+
+
+
 End Class

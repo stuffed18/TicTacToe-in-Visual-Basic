@@ -26,6 +26,7 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button2
@@ -34,7 +35,7 @@ Partial Class Form1
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(344, 276)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(143, 40)
         Me.Button2.TabIndex = 5
@@ -47,7 +48,7 @@ Partial Class Form1
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(344, 321)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(143, 40)
         Me.Button3.TabIndex = 6
@@ -80,16 +81,26 @@ Partial Class Form1
         Me.Button4.Text = "Play"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(564, 232)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(102, 58)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(821, 452)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -100,4 +111,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button1 As Button
 End Class

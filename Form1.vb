@@ -44,4 +44,11 @@
         Button2.BackColor = semiTransparentBlack
 
     End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim sixthform As New Form6
+        sixthform.Show()
+        Me.Hide()
+
+    End Sub
 End Class

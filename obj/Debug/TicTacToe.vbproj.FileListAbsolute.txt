@@ -19,3 +19,6 @@ C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\bin\Debug\AxInterop.WMPL
 C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\Interop.WMPLib.dll
 C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\TicTacToe.vbproj.ResolveComReference.cache
+C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\TicTacToe.Form6.resources
+C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\TicTacToe.Form7.resources
+C:\Users\kiren\Downloads\Practise VB Programs\TicTacToe\obj\Debug\TicTacToe.Form8.resources
