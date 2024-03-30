@@ -454,4 +454,11 @@ Public Class Form2
         clickSound.SoundLocation = "assets\buttonclick.wav"
         clickSound.LoadAsync()
     End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Dim firstform As New Form1
+        firstform.Show()
+        Me.Hide()
+
+    End Sub
 End Class
