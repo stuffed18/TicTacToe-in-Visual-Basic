@@ -60,12 +60,12 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 41.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(270, 83)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(292, 63)
+        Me.Label3.Size = New System.Drawing.Size(300, 63)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "TicTacToe"
         '
@@ -74,7 +74,7 @@ Partial Class Form1
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(344, 213)
+        Me.Button4.Location = New System.Drawing.Point(134, 201)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(143, 58)
         Me.Button4.TabIndex = 8
@@ -83,11 +83,14 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(564, 232)
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(344, 213)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(102, 58)
+        Me.Button1.Size = New System.Drawing.Size(143, 58)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Play"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1

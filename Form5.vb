@@ -15,6 +15,8 @@ Public Class Form5
             Dim secondform As New Form2
             secondform.Show()
             secondform.SetTexts(playerone, playertwo)
+            Me.Hide()
+
 
             Dim fourthform As New Form4
             fourthform.SetTexts(playerone, playertwo)
@@ -34,6 +36,7 @@ Public Class Form5
             Dim secondform As New Form2
             secondform.Show()
             secondform.SetTexts(playerone, playertwo)
+            Me.Hide()
 
             Dim fourthform As New Form4
             fourthform.SetTexts(playerone, playertwo)

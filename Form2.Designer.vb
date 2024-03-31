@@ -47,11 +47,8 @@ Partial Class Form2
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -60,7 +57,7 @@ Partial Class Form2
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(298, 194)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(60, 58)
         Me.Button1.TabIndex = 0
@@ -71,7 +68,7 @@ Partial Class Form2
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Location = New System.Drawing.Point(362, 194)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(60, 58)
         Me.Button2.TabIndex = 1
@@ -82,7 +79,7 @@ Partial Class Form2
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Location = New System.Drawing.Point(426, 194)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(60, 58)
         Me.Button3.TabIndex = 2
@@ -93,7 +90,7 @@ Partial Class Form2
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Location = New System.Drawing.Point(426, 256)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(60, 58)
         Me.Button4.TabIndex = 3
@@ -104,7 +101,7 @@ Partial Class Form2
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Location = New System.Drawing.Point(362, 256)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(60, 58)
         Me.Button5.TabIndex = 4
@@ -115,7 +112,7 @@ Partial Class Form2
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Location = New System.Drawing.Point(298, 256)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(60, 58)
         Me.Button6.TabIndex = 5
@@ -126,7 +123,7 @@ Partial Class Form2
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Location = New System.Drawing.Point(298, 318)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(60, 58)
         Me.Button7.TabIndex = 6
@@ -137,7 +134,7 @@ Partial Class Form2
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Location = New System.Drawing.Point(362, 318)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(2)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(60, 58)
         Me.Button8.TabIndex = 7
@@ -148,7 +145,7 @@ Partial Class Form2
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Location = New System.Drawing.Point(426, 318)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(60, 58)
         Me.Button9.TabIndex = 8
@@ -278,7 +275,7 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Label8.Location = New System.Drawing.Point(293, 151)
+        Me.Label8.Location = New System.Drawing.Point(300, 151)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(0, 29)
         Me.Label8.TabIndex = 22
@@ -288,32 +285,13 @@ Partial Class Form2
         Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
         Me.ImageList2.Images.SetKeyName(0, "restart button.png")
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(177, 165)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(15, 182)
-        Me.PictureBox3.TabIndex = 24
-        Me.PictureBox3.TabStop = False
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Panel1.Location = New System.Drawing.Point(77, 142)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(21, 142)
-        Me.Panel1.TabIndex = 25
+        Me.ImageList2.Images.SetKeyName(1, "exit.png")
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(813, 449)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -335,12 +313,11 @@ Partial Class Form2
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.Text = "Form2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -369,6 +346,4 @@ Partial Class Form2
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents ImageList2 As ImageList
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents Panel1 As Panel
 End Class

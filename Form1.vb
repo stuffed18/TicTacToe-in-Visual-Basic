@@ -34,12 +34,14 @@
 
         Label3.Parent = pictureBox
         Button4.Parent = pictureBox
+        Button1.Parent = pictureBox
         Button2.Parent = pictureBox
         Button3.Parent = pictureBox
 
         pictureBox.SendToBack()
         Dim semiTransparentBlack As Color = Color.FromArgb(128, Color.Black)
         Button4.BackColor = semiTransparentBlack
+        Button1.BackColor = semiTransparentBlack
         Button3.BackColor = semiTransparentBlack
         Button2.BackColor = semiTransparentBlack
 

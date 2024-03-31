@@ -451,6 +451,7 @@ Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Button10.Image = ImageList2.Images(0)
+        Button11.Image = ImageList2.Images(1)
         clickSound.SoundLocation = "assets\buttonclick.wav"
         clickSound.LoadAsync()
     End Sub
