@@ -1,4 +1,5 @@
 ﻿Imports System.Media
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Window
 Public Class Form2
     Dim Flag As Boolean = True
     Dim button1X As Boolean = False
@@ -447,6 +448,7 @@ Public Class Form2
     End Sub
 
     Private clickSound As New SoundPlayer()
+    Private mineSound As New SoundPlayer()
 
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -454,6 +456,14 @@ Public Class Form2
         Button11.Image = ImageList2.Images(1)
         clickSound.SoundLocation = "assets\buttonclick.wav"
         clickSound.LoadAsync()
+        mineSound.SoundLocation = "assets\smallexplosion.wav"
+        mineSound.LoadAsync()
+
+
+        If Form6.MinesweeperModeEnabled Then
+            MinesweeperMode()
+        End If
+
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
@@ -482,7 +492,7 @@ Public Class Form2
                 Dim randomButtonIndex As Integer = random.Next(availableButtons.Count)
                 Dim selectedButton As Button = availableButtons(randomButtonIndex)
 
-                ' Simulate a click on the randomly selected button
+                ' simulate a click on the randomly selected button
                 selectedButton.PerformClick()
                 Flag = True
 
@@ -506,8 +516,36 @@ Public Class Form2
                 ComputerMove()
             End If
         End If
+
     End Sub
 
+    Private Sub MinesweeperMode()
+        Dim gameGridButtons As New List(Of Button) From {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9}
+        Dim mineButtonIndex As Integer = random.Next(0, gameGridButtons.Count)
+        Dim mineButton As Button = gameGridButtons(mineButtonIndex)
+        AddHandler mineButton.Click, AddressOf MineButton_Click
 
+    End Sub
+    Private Sub MineButton_Click(sender As Object, e As EventArgs)
+        Dim mineButton As Button = DirectCast(sender, Button)
+        If Flag = True Then
+            mineButton.Image = ImageList1.Images(5)
+            Label8.Text = "Winner X: " & Label4.Text
+            Label3.Text = "winner x"
+            UpdateScores()
+            mineSound.Play()
+
+        End If
+        If Flag = False Then
+            mineButton.Image = ImageList1.Images(5)
+            Label8.Text = "Winner O: " & Label5.Text
+            Label3.Text = "Winner O"
+            UpdateScores()
+            mineSound.Play()
+
+        End If
+        DisableButtons()
+
+    End Sub
 
 End Class
