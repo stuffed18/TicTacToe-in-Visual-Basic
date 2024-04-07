@@ -25,7 +25,6 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -69,18 +68,6 @@ Partial Class Form1
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "TicTacToe"
         '
-        'Button4
-        '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(134, 201)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(143, 58)
-        Me.Button4.TabIndex = 8
-        Me.Button4.Text = "Play"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -99,7 +86,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(821, 452)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -113,6 +99,5 @@ Partial Class Form1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button4 As Button
     Friend WithEvents Button1 As Button
 End Class

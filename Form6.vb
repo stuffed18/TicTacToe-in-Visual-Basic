@@ -21,26 +21,29 @@ Public Class Form6
 
     Private Sub Form6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        Dim pictureBox3 As New PictureBox()
-        pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        pictureBox3.Dock = DockStyle.Fill
-        pictureBox3.BackColor = Color.Transparent
-        Me.Controls.Add(pictureBox3)
+        Dim wallpaper As New PictureBox()
+        wallpaper.SizeMode = PictureBoxSizeMode.StretchImage
+        wallpaper.Dock = DockStyle.Fill
+        wallpaper.BackColor = Color.Transparent
+        Me.Controls.Add(wallpaper)
 
-        pictureBox3.Image = Image.FromFile("assets\mountainlandscape.png")
+        wallpaper.Image = Image.FromFile("assets\mountainlandscape.png")
 
-        Button1.Parent = pictureBox3
-        Button2.Parent = pictureBox3
+        Button1.Parent = wallpaper
+        Button2.Parent = wallpaper
+        Button3.Parent = wallpaper
 
-        pictureBox3.SendToBack()
+        wallpaper.SendToBack()
 
         Dim semiTransparentColor As Color = Color.FromArgb(128, Color.Black)
 
         Button1.BackColor = semiTransparentColor
         Button2.BackColor = semiTransparentColor
-        Label1.Parent = pictureBox3
-        PictureBox1.Parent = pictureBox3
-        PictureBox2.Parent = pictureBox3
+        Button3.BackColor = semiTransparentColor
+        Label1.Parent = wallpaper
+        PictureBox1.Parent = wallpaper
+        PictureBox2.Parent = wallpaper
+        PictureBox3.Parent = wallpaper
 
     End Sub
 

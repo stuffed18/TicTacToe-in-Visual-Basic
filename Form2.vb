@@ -402,12 +402,15 @@ Public Class Form2
 
     End Sub
 
-
     Private Sub UpdateScores()
         If Label3.Text = "Winner X" Then
             playerXscore += 1
         ElseIf Label3.Text = "Winner O" Then
             playerOscore += 1
+        ElseIf Label3.Text = "mine o" Then
+            playerOscore += 1
+        ElseIf Label3.Text = "mine x" Then
+            playerXscore += 1
         End If
         Label6.Text = "Score: " & playerXscore.ToString()
         Label7.Text = "Score: " & playerOscore.ToString()
@@ -459,14 +462,23 @@ Public Class Form2
         mineSound.SoundLocation = "assets\smallexplosion.wav"
         mineSound.LoadAsync()
 
+        wallpaper1()
 
         If Form6.MinesweeperModeEnabled Then
             MinesweeperMode()
+            MineInstructions()
         End If
+
+        Label3.Visible = False
+
+        SetLabelsParent()
 
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Form6.PlayerVsComputerModeEnabled = False
+        Form6.MinesweeperModeEnabled = False
+
         Dim firstform As New Form1
         firstform.Show()
         Me.Hide()
@@ -527,25 +539,87 @@ Public Class Form2
 
     End Sub
     Private Sub MineButton_Click(sender As Object, e As EventArgs)
-        Dim mineButton As Button = DirectCast(sender, Button)
-        If Flag = True Then
-            mineButton.Image = ImageList1.Images(5)
-            Label8.Text = "Winner X: " & Label4.Text
-            Label3.Text = "winner x"
-            UpdateScores()
-            mineSound.Play()
+        If Form6.MinesweeperModeEnabled = True Then
+
+            Dim mineButton As Button = DirectCast(sender, Button)
+            If Flag = True Then
+                mineButton.Image = ImageList1.Images(5)
+                Label8.Text = "Winner X: " & Label4.Text
+                Label3.Text = "mine x"
+                UpdateScores()
+                mineSound.Play()
+
+            End If
+            If Flag = False Then
+                mineButton.Image = ImageList1.Images(5)
+                Label8.Text = "Winner O: " & Label5.Text
+                Label3.Text = "mine o"
+                UpdateScores()
+                mineSound.Play()
+
+            End If
+            DisableButtons()
 
         End If
-        If Flag = False Then
-            mineButton.Image = ImageList1.Images(5)
-            Label8.Text = "Winner O: " & Label5.Text
-            Label3.Text = "Winner O"
-            UpdateScores()
-            mineSound.Play()
-
-        End If
-        DisableButtons()
 
     End Sub
+
+    Private Sub MineInstructions()
+        Dim newLabel As New Label()
+
+        newLabel.Size = New Size(220, 110)
+        newLabel.Location = New Point(40, 225)
+        newLabel.ForeColor = Color.White
+        newLabel.BackColor = Color.Transparent
+        newLabel.BorderStyle = BorderStyle.FixedSingle
+        newLabel.Text = "You have enabled MINESWEEPER Mode. One mine is placed randomly on the board. If you click on it, it will explode."
+        newLabel.AutoSize = False
+        newLabel.Font = New Font(newLabel.Font.FontFamily, 12)
+        newLabel.TextAlign = ContentAlignment.TopLeft
+        newLabel.Parent = wallpaper
+        newLabel.Padding = New Padding(10)
+
+        Dim textSize As Size = TextRenderer.MeasureText(newLabel.Text, newLabel.Font, New Size(newLabel.Width - newLabel.Padding.Horizontal, Integer.MaxValue), TextFormatFlags.WordBreak)
+
+        Dim bufferHeight As Integer = 10
+        newLabel.Height = textSize.Height + newLabel.Padding.Vertical + bufferHeight
+
+        Me.Controls.Add(newLabel)
+        newLabel.BringToFront()
+    End Sub
+
+    Dim wallpaper As New PictureBox()
+
+    Public Sub wallpaper1()
+        wallpaper.SizeMode = PictureBoxSizeMode.StretchImage
+        wallpaper.Dock = DockStyle.Fill
+        wallpaper.BackColor = Color.Transparent
+        Me.Controls.Add(wallpaper)
+
+        wallpaper.Image = Image.FromFile("assets\landscape3.png")
+
+        Label1.Parent = wallpaper
+        Label2.Parent = wallpaper
+        Label3.Parent = wallpaper
+        Label4.Parent = wallpaper
+        Label5.Parent = wallpaper
+        Label6.Parent = wallpaper
+        Label7.Parent = wallpaper
+        Label8.Parent = wallpaper
+        PictureBox1.Parent = wallpaper
+        PictureBox2.Parent = wallpaper
+        Button10.Parent = wallpaper
+        Button11.Parent = wallpaper
+    End Sub
+
+    Private Sub SetLabelsParent()
+        For Each ctrl As Control In Me.Controls
+            If TypeOf ctrl Is Label Then
+                ctrl.Parent = wallpaper
+            End If
+        Next
+    End Sub
+
+
 
 End Class

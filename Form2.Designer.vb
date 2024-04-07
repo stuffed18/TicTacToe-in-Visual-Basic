@@ -56,10 +56,10 @@ Partial Class Form2
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(397, 239)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Location = New System.Drawing.Point(298, 194)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(80, 71)
+        Me.Button1.Size = New System.Drawing.Size(60, 58)
         Me.Button1.TabIndex = 0
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -67,10 +67,10 @@ Partial Class Form2
         '
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(483, 239)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button2.Location = New System.Drawing.Point(362, 194)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(80, 71)
+        Me.Button2.Size = New System.Drawing.Size(60, 58)
         Me.Button2.TabIndex = 1
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -78,10 +78,10 @@ Partial Class Form2
         '
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(568, 239)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button3.Location = New System.Drawing.Point(426, 194)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(80, 71)
+        Me.Button3.Size = New System.Drawing.Size(60, 58)
         Me.Button3.TabIndex = 2
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -89,10 +89,10 @@ Partial Class Form2
         '
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(568, 315)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button4.Location = New System.Drawing.Point(426, 256)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(80, 71)
+        Me.Button4.Size = New System.Drawing.Size(60, 58)
         Me.Button4.TabIndex = 3
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -100,10 +100,10 @@ Partial Class Form2
         '
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(483, 315)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button5.Location = New System.Drawing.Point(362, 256)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(80, 71)
+        Me.Button5.Size = New System.Drawing.Size(60, 58)
         Me.Button5.TabIndex = 4
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -111,10 +111,10 @@ Partial Class Form2
         '
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(397, 315)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button6.Location = New System.Drawing.Point(298, 256)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(80, 71)
+        Me.Button6.Size = New System.Drawing.Size(60, 58)
         Me.Button6.TabIndex = 5
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -122,10 +122,10 @@ Partial Class Form2
         '
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(397, 391)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button7.Location = New System.Drawing.Point(298, 318)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(80, 71)
+        Me.Button7.Size = New System.Drawing.Size(60, 58)
         Me.Button7.TabIndex = 6
         Me.Button7.UseVisualStyleBackColor = True
         '
@@ -133,10 +133,10 @@ Partial Class Form2
         '
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(483, 391)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button8.Location = New System.Drawing.Point(362, 318)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(80, 71)
+        Me.Button8.Size = New System.Drawing.Size(60, 58)
         Me.Button8.TabIndex = 7
         Me.Button8.UseVisualStyleBackColor = True
         '
@@ -144,10 +144,10 @@ Partial Class Form2
         '
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(568, 391)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button9.Location = New System.Drawing.Point(426, 318)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(80, 71)
+        Me.Button9.Size = New System.Drawing.Size(60, 58)
         Me.Button9.TabIndex = 8
         Me.Button9.UseVisualStyleBackColor = True
         '
@@ -165,10 +165,9 @@ Partial Class Form2
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(384, 52)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(288, 42)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(109, 101)
+        Me.PictureBox1.Size = New System.Drawing.Size(82, 82)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 9
         Me.PictureBox1.TabStop = False
@@ -176,10 +175,9 @@ Partial Class Form2
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(563, 53)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(422, 43)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(109, 101)
+        Me.PictureBox2.Size = New System.Drawing.Size(82, 82)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 10
         Me.PictureBox2.TabStop = False
@@ -188,10 +186,9 @@ Partial Class Form2
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label1.Location = New System.Drawing.Point(253, 48)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(190, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(113, 31)
+        Me.Label1.Size = New System.Drawing.Size(92, 26)
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "Player 1"
         '
@@ -199,10 +196,9 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label2.Location = New System.Drawing.Point(675, 53)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(506, 43)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(113, 31)
+        Me.Label2.Size = New System.Drawing.Size(92, 26)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Player 2"
         '
@@ -211,10 +207,9 @@ Partial Class Form2
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
         Me.Label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label3.Location = New System.Drawing.Point(71, 281)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(78, 252)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(127, 29)
+        Me.Label3.Size = New System.Drawing.Size(101, 24)
         Me.Label3.TabIndex = 15
         Me.Label3.Text = "No Winner"
         '
@@ -222,10 +217,9 @@ Partial Class Form2
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label4.Location = New System.Drawing.Point(255, 89)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(191, 72)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(98, 29)
+        Me.Label4.Size = New System.Drawing.Size(76, 24)
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "player 1"
         '
@@ -233,42 +227,39 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label5.Location = New System.Drawing.Point(676, 89)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(507, 72)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(98, 29)
+        Me.Label5.Size = New System.Drawing.Size(76, 24)
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "player 2"
         '
         'Button10
         '
+        Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(717, 203)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button10.Location = New System.Drawing.Point(536, 217)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(104, 94)
+        Me.Button10.Size = New System.Drawing.Size(78, 76)
         Me.Button10.TabIndex = 18
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Button11
         '
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Location = New System.Drawing.Point(717, 321)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button11.Location = New System.Drawing.Point(536, 305)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(104, 87)
+        Me.Button11.Size = New System.Drawing.Size(78, 71)
         Me.Button11.TabIndex = 19
-        Me.Button11.Text = "Exit"
         Me.Button11.UseVisualStyleBackColor = True
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label6.Location = New System.Drawing.Point(252, 126)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(189, 102)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(115, 31)
+        Me.Label6.Size = New System.Drawing.Size(93, 26)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Score: 0"
         '
@@ -276,10 +267,9 @@ Partial Class Form2
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Label7.Location = New System.Drawing.Point(673, 126)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(505, 102)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(115, 31)
+        Me.Label7.Size = New System.Drawing.Size(93, 26)
         Me.Label7.TabIndex = 21
         Me.Label7.Text = "Score: 0"
         '
@@ -287,10 +277,9 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Label8.Location = New System.Drawing.Point(400, 186)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(300, 151)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(0, 36)
+        Me.Label8.Size = New System.Drawing.Size(0, 29)
         Me.Label8.TabIndex = 22
         '
         'ImageList2
@@ -298,13 +287,14 @@ Partial Class Form2
         Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
         Me.ImageList2.Images.SetKeyName(0, "restart button.png")
-        Me.ImageList2.Images.SetKeyName(1, "exit.png")
+        Me.ImageList2.Images.SetKeyName(1, "hamburger.png")
+        Me.ImageList2.Images.SetKeyName(2, "exit.png")
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1084, 553)
+        Me.ClientSize = New System.Drawing.Size(813, 449)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -326,7 +316,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form2"
         Me.Text = "Form2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

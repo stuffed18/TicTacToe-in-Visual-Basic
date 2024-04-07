@@ -16,7 +16,7 @@
 
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs)
         Dim fifthform As New Form5
         fifthform.Show()
         Me.Hide()
@@ -33,14 +33,12 @@
         pictureBox.Image = Image.FromFile("assets\landscape.png")
 
         Label3.Parent = pictureBox
-        Button4.Parent = pictureBox
         Button1.Parent = pictureBox
         Button2.Parent = pictureBox
         Button3.Parent = pictureBox
 
         pictureBox.SendToBack()
         Dim semiTransparentBlack As Color = Color.FromArgb(128, Color.Black)
-        Button4.BackColor = semiTransparentBlack
         Button1.BackColor = semiTransparentBlack
         Button3.BackColor = semiTransparentBlack
         Button2.BackColor = semiTransparentBlack
