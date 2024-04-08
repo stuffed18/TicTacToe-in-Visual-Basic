@@ -56,7 +56,7 @@ Partial Class Form2
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(298, 194)
+        Me.Button1.Location = New System.Drawing.Point(301, 194)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(60, 58)
@@ -67,7 +67,7 @@ Partial Class Form2
         '
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(362, 194)
+        Me.Button2.Location = New System.Drawing.Point(366, 194)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(60, 58)
@@ -78,7 +78,7 @@ Partial Class Form2
         '
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(426, 194)
+        Me.Button3.Location = New System.Drawing.Point(430, 194)
         Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(60, 58)
@@ -89,7 +89,7 @@ Partial Class Form2
         '
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(426, 256)
+        Me.Button4.Location = New System.Drawing.Point(430, 256)
         Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(60, 58)
@@ -100,7 +100,7 @@ Partial Class Form2
         '
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(362, 256)
+        Me.Button5.Location = New System.Drawing.Point(366, 256)
         Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(60, 58)
@@ -111,7 +111,7 @@ Partial Class Form2
         '
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(298, 256)
+        Me.Button6.Location = New System.Drawing.Point(301, 256)
         Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(60, 58)
@@ -122,7 +122,7 @@ Partial Class Form2
         '
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(298, 318)
+        Me.Button7.Location = New System.Drawing.Point(301, 318)
         Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(60, 58)
@@ -133,7 +133,7 @@ Partial Class Form2
         '
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(362, 318)
+        Me.Button8.Location = New System.Drawing.Point(366, 318)
         Me.Button8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(60, 58)
@@ -144,7 +144,7 @@ Partial Class Form2
         '
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(426, 318)
+        Me.Button9.Location = New System.Drawing.Point(430, 318)
         Me.Button9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(60, 58)
@@ -237,7 +237,7 @@ Partial Class Form2
         '
         Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(536, 217)
+        Me.Button10.Location = New System.Drawing.Point(520, 300)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(78, 76)
         Me.Button10.TabIndex = 18
@@ -247,9 +247,9 @@ Partial Class Form2
         '
         Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Location = New System.Drawing.Point(536, 305)
+        Me.Button11.Location = New System.Drawing.Point(604, 300)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(78, 71)
+        Me.Button11.Size = New System.Drawing.Size(78, 76)
         Me.Button11.TabIndex = 19
         Me.Button11.UseVisualStyleBackColor = True
         '
@@ -277,7 +277,7 @@ Partial Class Form2
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Label8.Location = New System.Drawing.Point(300, 151)
+        Me.Label8.Location = New System.Drawing.Point(304, 151)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(0, 29)
         Me.Label8.TabIndex = 22
@@ -286,9 +286,11 @@ Partial Class Form2
         '
         Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList2.Images.SetKeyName(0, "restart button.png")
-        Me.ImageList2.Images.SetKeyName(1, "hamburger.png")
+        Me.ImageList2.Images.SetKeyName(0, "restartwhit.png")
+        Me.ImageList2.Images.SetKeyName(1, "hamburger22.png")
         Me.ImageList2.Images.SetKeyName(2, "exit.png")
+        Me.ImageList2.Images.SetKeyName(3, "restart button.png")
+        Me.ImageList2.Images.SetKeyName(4, "hamburger.png")
         '
         'Form2
         '

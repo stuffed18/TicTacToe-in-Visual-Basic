@@ -567,8 +567,8 @@ Public Class Form2
     Private Sub MineInstructions()
         Dim newLabel As New Label()
 
-        newLabel.Size = New Size(220, 110)
-        newLabel.Location = New Point(40, 225)
+        newLabel.Size = New Size(240, 110)
+        newLabel.Location = New Point(30, 245)
         newLabel.ForeColor = Color.White
         newLabel.BackColor = Color.Transparent
         newLabel.BorderStyle = BorderStyle.FixedSingle

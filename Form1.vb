@@ -36,6 +36,8 @@
         Button1.Parent = pictureBox
         Button2.Parent = pictureBox
         Button3.Parent = pictureBox
+        PictureBox1.Parent = pictureBox
+
 
         pictureBox.SendToBack()
         Dim semiTransparentBlack As Color = Color.FromArgb(128, Color.Black)

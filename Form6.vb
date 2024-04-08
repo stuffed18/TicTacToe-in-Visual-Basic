@@ -40,10 +40,11 @@ Public Class Form6
         Button1.BackColor = semiTransparentColor
         Button2.BackColor = semiTransparentColor
         Button3.BackColor = semiTransparentColor
-        Label1.Parent = wallpaper
         PictureBox1.Parent = wallpaper
         PictureBox2.Parent = wallpaper
         PictureBox3.Parent = wallpaper
+        PictureBox4.Parent = wallpaper
+
 
     End Sub
 
