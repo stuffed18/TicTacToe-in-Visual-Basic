@@ -32,7 +32,6 @@
 
         pictureBox.Image = Image.FromFile("assets\landscape.png")
 
-        Label3.Parent = pictureBox
         Button1.Parent = pictureBox
         Button2.Parent = pictureBox
         Button3.Parent = pictureBox
